@@ -1,0 +1,157 @@
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP1 START @ 12:13:31
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.18
+PHP:		5.6.8 | SAPI: apache2handler
+SERVER:		Apache/2.4.12 (Win32) OpenSSL/1.0.1l PHP/5.6.8
+DOC ROOT:	C:/xampp/htdocs/MMK
+DOC ROOT 755:	true
+LOG FILE 644:	true
+BUILD NAME:	20161027_mymontanakitchen_5812614c4d86a2843161027201924
+REQUEST URL:	http://localhost/mmk/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20161027_mymontanakitchen_5812614c4d86a2843161027201924_archive.zip
+SIZE:	417.96MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8525
+    [filename] => C:\xampp\htdocs\MMK\20161027_mymontanakitchen_5812614c4d86a2843161027201924_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  'C:/xampp/htdocs/MMK/installer-data.sql'
+- WP-CONFIG: 'C:/xampp/htdocs/MMK/wp-config.php'
+
+ARCHIVE RUNTIME: 65.1332 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.24 -- Build Server: 5.6.28
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+
+WARNING: A sql_mode has been detected that may cause issues with this install.
+Please use the advanced options in Step 1 to disable the sql_mode or disable it the my.ini file
+For more details on this topic please visit: http://dev.mysql.com/doc/refman/5.7/en/sql-mode.html
+
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	removed (16) tables
+QUERIES RAN:	10320
+
+wpav_amd_yrecipe_recipes: (15)
+wpav_commentmeta: (4978)
+wpav_comments: (1200)
+wpav_duplicator_packages: (2)
+wpav_huge_it_share_params: (41)
+wpav_huge_it_share_params_posts: (1)
+wpav_links: (0)
+wpav_options: (1578)
+wpav_postmeta: (920)
+wpav_posts: (753)
+wpav_term_relationships: (523)
+wpav_term_taxonomy: (123)
+wpav_termmeta: (0)
+wpav_terms: (123)
+wpav_usermeta: (44)
+wpav_users: (1)
+Removed '95' cache/transient rows
+
+SECTION RUNTIME: 43.7615 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 12:15:38 - TOTAL RUNTIME: 127.4420 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR INSTALL-LOG
+STEP2 START @ 12:15:48
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wpav_amd_yrecipe_recipes~ (15)
+wpav_commentmeta~ (4978)
+wpav_comments~ (1200)
+wpav_duplicator_packages^ (0)
+wpav_huge_it_share_params~ (41)
+wpav_huge_it_share_params_posts~ (1)
+wpav_links^ (0)
+wpav_options~ (1482)
+wpav_postmeta~ (920)
+wpav_posts~ (753)
+wpav_term_relationships~ (523)
+wpav_term_taxonomy~ (123)
+wpav_termmeta^ (0)
+wpav_terms~ (123)
+wpav_usermeta~ (44)
+wpav_users~ (1)
+--------------------------------------
+Search1:	'http://mymontanakitchen.com' 
+Change1:	'http://localhost/mmk' 
+Search2:	'/home/mymontan/public_html' 
+Change2:	'C:/xampp/htdocs/MMK' 
+Search3:	'http:\/\/mymontanakitchen.com' 
+Change3:	'http:\/\/localhost\/mmk' 
+Search4:	'\/home\/mymontan\/public_html' 
+Change4:	'C:\/xampp\/htdocs\/MMK' 
+Search5:	'%2Fhome%2Fmymontan%2Fpublic_html%2F' 
+Change5:	'C%3A%2Fxampp%2Fhtdocs%2FMMK%2F' 
+Search6:	'http%3A%2F%2Fmymontanakitchen.com' 
+Change6:	'http%3A%2F%2Flocalhost%2Fmmk' 
+Search7:	'\home\mymontan\public_html' 
+Change7:	'C:/xampp/htdocs/MMK' 
+SCANNED:	Tables:16 	|	 Rows:10204 	|	 Cells:68374 
+UPDATED:	Tables:3 	|	 Rows:1143 	|	 Cells:1598 
+ERRORS:		0 
+RUNTIME:	2.891100 sec
+
+********************************************************************************
+START FINAL CLEANUP: 12:15:52
+********************************************************************************
+UPDATE `wpav_blogs` SET domain = 'localhost' WHERE domain = 'mymontanakitchen.com'
+
+--------------------------------------
+NOTICES
+--------------------------------------
+No Notices Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 12:15:52 - TOTAL RUNTIME: 3.9365 sec.
+********************************************************************************

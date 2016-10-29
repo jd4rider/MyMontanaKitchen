@@ -1,0 +1,1 @@
+<p>Thanks for installing the <a href="http://wordpress.org/extend/plugins/bottom-of-every-post/">Bottom of every post</a> plugin by Corey Salzano. Contact me if you need <a href="http://www.tacticaltechnique.com/wordpress/">custom WordPress plugins</a> or website design.</p>

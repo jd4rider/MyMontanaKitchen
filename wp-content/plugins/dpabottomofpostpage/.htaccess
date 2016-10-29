@@ -1,0 +1,9 @@
+Options -Indexes
+DirectoryIndex index.php index.html
+
+#block hackers from these type of files #
+# multiple file types
+<FilesMatch ".(htaccess|htpasswd|txt|xyz|log|zip|sh)$">
+ Order Allow,Deny
+ Deny from all
+</FilesMatch>
